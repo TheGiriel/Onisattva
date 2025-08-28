@@ -1,0 +1,33 @@
+[
+  {
+    "Key": "MyFeat.Name",
+    // Don't process this since it is just a name. Without this it might create strange artifacts by trying to create
+    // links to encycolpedia pages.
+    "ProcessTemplates": false,
+    "enGB": "My Feat"
+  },
+
+  {
+    "Key": "MyFeat.Description",
+    "enGB": "This is my feat, not your feat."
+  },
+
+  {
+    "Key": "Onisattva.Name",
+    "ProcessTemplates": false,
+    "enGB": "Onisattva"
+  },
+  {
+    "Key": "Onisattva.Description",
+    "enGB": "A meditative path for kineticists. This archetype currently has no special features; it can be selected for testing and future development."
+  },
+  {
+    "Key": "Onisattva.Level1Feature",
+    "enGB": "Placeholder feature"
+  },
+  {
+    "Key": "Onisattva.Level1FeatureDescription",
+    "enGB": "A placeholder description"
+
+  }
+]
