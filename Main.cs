@@ -56,7 +56,6 @@ namespace OnisattvaMod
           Logger.Info("Configuring blueprints.");
 
           MyFeat.Configure();
-                    Onisattva.Configure();
         }
         catch (Exception e)
         {
