@@ -1,33 +1,390 @@
 [
   {
     "Key": "MyFeat.Name",
-    // Don't process this since it is just a name. Without this it might create strange artifacts by trying to create
-    // links to encycolpedia pages.
-    "ProcessTemplates": false,
-    "enGB": "My Feat"
+    "enGB": "MyFeat"
   },
-
   {
     "Key": "MyFeat.Description",
-    "enGB": "This is my feat, not your feat."
+    "enGB": "This is my Feat. Transform your body into highly conductive metal, multiplying your weight by 8 and gaining a +6 +¼ CL armor bonus, a +2 +1/6 CL bonus to Strength but take a -2 -1/6 CL penalty to Dexterity and are treated as wearing heavy armor. \nEvery round you're transformed, you get struck by lightning, taking 4d8 damage, plus an additional 2d8 damage for every 6 CL you possess."
   },
 
   {
-    "Key": "Onisattva.Name",
+    "Key": "OnisattvaArchetype.Name",
     "ProcessTemplates": false,
     "enGB": "Onisattva"
   },
   {
-    "Key": "Onisattva.Description",
+    "Key": "OnisattvaArchetype.Description",
     "enGB": "A meditative path for kineticists. This archetype currently has no special features; it can be selected for testing and future development."
   },
   {
-    "Key": "Onisattva.Level1Feature",
+    "Key": "OnisattvaArchetype.HellfireQi.Name",
+    "ProcessTemplates": false,
+    "enGB": "Hellfire Qi"
+  },
+  {
+    "Key": "OnisattvaArchetype.HellfireQi.Description",
+    "enGB": "The Onisattva's unique resource, fusing Ki and Burn into a volatile resource that can alternate between states of Blaze and Ember. Positive and Negative Hellfire Qi maximums are equal to ¼*(Constitution mod + Wisdom Mod).\nPerforming an action that would put Hellfire Qi beyond the maximum will cause the action to fail and deal 1d8 damage per Blaze or Ember cost of the action. This damage can only be healded on a long rest."
+  },
+  {
+    "Key": "OnisattvaArchetype.Level1Feature",
     "enGB": "Placeholder feature"
   },
   {
-    "Key": "Onisattva.Level1FeatureDescription",
+    "Key": "OnisattvaArchetype.Level1FeatureDescription",
     "enGB": "A placeholder description"
-
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalInsight.Name",
+    "enGB": "Elemental Insight"
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalInsight.Description",
+    "enGB": "The Onisattva's unique approach to the elements has allowed them to acces them in a liberated way but doing so comes at the cost of specialized expertise. They may select Utility Wild Talents from any element but their effective kineticist level is treated as 1/4th for the purpose of which talents they can select, minimum 1.\nThis replaces the Elemental Focus kineticist feature."
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalBodhi.Name",
+    "enGB": "Elemental Bodhi"
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalBodhi.Description",
+    "enGB": "Upon reaching level 10, the Onisattva's understanding of the elements has deepened, reducing their penalty to 1/3rd instead.\nThis replaces the Expanded Focus kineticist features gained at levels 7 and 15."
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalEmbodiment.Name",
+    "enGB": "Elemental Embodiment"
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalEmodiment.Description",
+    "enGB": "Unlike other kineticists, the Onisattva can freely change their defense wild talent once per day after 8 hours of rest.\nThis alters the defense wild talent gained at level 2."
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalSutras.Name",
+    "enGB": "Elemental Sutras"
+  },
+  {
+    "Key": "OnisattvaArchetype.ElementalSutras.Description",
+    "enGB": "The Onisattva's martial training has fundamentally changed the way they use their kinetic blasts, using specialized Elemental Sutras instead of infusions except for Kinetic Fist. They gain Kinetic Fist as a free infusion on level 1 and can use it for free when making unarmed attacks or using any of their elemental sutras. The Onisattva starts with knowledge of all Sutras but can only select a limited number at the start of their day and only Sutras that are within their power.\nThis replaces Infusions and Elemental Overflow."
+  },
+  {
+    "Key": "OnisattvaArchetype.BeginnerSutras.Name",
+    "enGB": "Beginner Sutras"
+  },
+  {
+    "Key": "OnisattvaArchetype.BeginnerSutras.Description",
+    "enGB": "The Onisattva starts every day with a selection of 3 Beginner Sutras. On level 3 and every odd level thereafter, they can select 1 more Beginner Sutra every odd Onisattva level until level 11, when they are free to use all Beginner Sutras."
+  },
+  {
+    "Key": "OnisattvaArchetype.AdeptSutras.Name",
+    "enGB": "Adept Sutras"
+  },
+  {
+    "Key": "OnisattvaArchetype.AdeptSutras.Description",
+    "enGB": "Starting level 5, the Onisattva gains access to Adept Sutras and starts every day with a selection of 3 Adept Sutras. On level 7 and every odd level thereafter, they can select 1 more Adept Sutra until level 17, when they are free to use all Adept Sutras."
+  },
+  {
+    "Key": "OnisattvaArchetype.ExpertSutras.Name",
+    "enGB": "Expert Sutras"
+  },
+  {
+    "Key": "OnisattvaArchetype.ExpertSutras.Description",
+    "enGB": "Starting level 9, the Onisattva starts every day with a selection of 3 Expert Sutras. On level 11 and every odd level thereafter, they can select 1 more Expert Sutra every odd Onisattva level until level 19, when they can select 8 Expert Sutras."
+  },
+  {
+    "Key": "OnisattvaArchetype.MasterSutras.Name",
+    "enGB": "Master Sutras"
+  },
+  {
+    "Key": "OnisattvaArchetype.MasterSutras.Description",
+    "enGB": "Starting level 13, the Onisattva gains access to Master Sutras and starts every day with a selection of 3 Master Sutras. On level 15 and every odd level thereafter, they can select 1 more Master Sutra until level 19, when they can select 6 Master Sutras."
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstElectricSutra.Name",
+    "enGB": "Electric Cross"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstElectricSutra.Description",
+    "enGB": "As an immediate action, when being hit by an attack from a creature in range, the Onisattva can halve the damage taken and make a counter attack. If the Onisattva's attack hits, deal electric damage to the opponent equal to the reduced damage + unarmed strike + kinetic fist.\nThe damage dealt increases by 1d6 every 5 Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondElectricSutra.Name",
+    "enGB": "Thunder God Strike"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondElectricSutra.Description",
+    "enGB": "You become the essence of furious lightning and smite foes as you advance through the battlefield. Make a melee attack against a target within close range that you have line of effect to, dealing unarmed + kinetic fist damage as half electic, half unarmed damage and move to a space adjacent to them. Furthermore, the target gains 1 Thunder Charge until the Technique ends. \nIf you are successful you may make another attack against a target in range that has no Thunder Charges and, on a successful attack, increasing all existing Thunder Charges by 1 before dealing damage and applying a Thunder Charge to this target. \nWhen the Technique ends, each target takes 1d6 + 1/2 caster level electric damage per Thunder Charge on them.\nYou can move and attack again every time you hit a target, up to a maximum number of attacks beyond the first equal to 1/2 your caster level or 1/2 bab (whichever is higher).\nYou cannot attack the same target more than once during the execution of this Technique.\nA successful Fortitude save prevents the initial application of a Thunder Charge on the target and a successful Reflex save halves electric damage dealt from Thunder Charges."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdElectricSutra.Name",
+    "enGB": "Living Capacitor"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdElectricSutra.Description",
+    "enGB": "Transform your body into highly conductive metal, multiplying your weight by 8 and gaining a +6 +¼ CL armor bonus, a +2 +⅙ CL bonus to Strength but take a -2 -⅙CL penalty to Dexterity and are treated as wearing heavy armor. \nEvery round you're transformed, you get struck by lightning, taking 4d8 damage, plus an additional 2d8 damage for every 6 CL you possess. You store the damage taken in your Capacitor pool. This is separate from your delayed damage and stores all electric damage taken for the duration. You may take an attack action against a target in melee range, dealing melee damage plus the damage in your Capacitor pool and Delayed Damage pool. \nWhen struck by lightning or other electric damage sources, you may make a fortitude save. On a successful save you take half damage but still increase your Capacity pool by the full amount. \nEnemies struck by the attack action halve the electric damage taken from Living Capacitor. Enemies wearing metal armor or composed of metal take a -3 -¼ CL penalty to their AC and fortitude save against this technique."
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstFireSutra.Name",
+    "enGB": "Blazing UpperCut"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstFireSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a powerful uppercut, dealing unarmed strike + kinetic fist damage as fire damage, knocking their opponent back 5 feet.\nA successful Fortitude save negates the knockback.\nThe knockback distance increases by 5 feet for every 4 Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondFireSutra.Name",
+    "enGB": "Volcano Hammer"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondFireSutra.Description",
+    "enGB": "As a standard action, a spout of lava shoots up next to the Onisattva and the intended target. The Onisattva reaches into the lava, taking 1d6 fire damage (bypassing fire resistance and immunities) per 2 CL, dealing their unarmed strike + kinetic fist damage, plus the fire damage taken from the lava, as half fire, half bludgeoning damage to the target.\nThe lava spout deals 1d6 +¼ Strength modifier as half fire, half bludgeoning damage per 4 Base Attack Bonus to the target. For every 10 CL the initiator has, they can increase their Blaze by 1 to create an additional lava spout that deals the same damage.\n The Blaze cost increases by 1 for every lava spout after the second created this way.\nA successful Reflex save each halves the damage taken from the initial attack and lava spouts."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdFireSutra.Name",
+    "enGB": "Pyroclastic Blow"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdFireSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a violent pyroclastic blow, dealing unarmed strike + kinetic fist damage as fire and bludgeoning damage.\nThe Onisattva then creates a firestorm originating from the target's square that is up to the Onisattva's Close range long and 5 feet + (Close range)/3 feet wide (minimum 15 feet wide, growing only by 5 feet to each side for every 30 feet of length).\nCreatures hit by the firestorm (inner third, rounded down) take the original attack's fire damage, afterwards creatures in the turbulence (outer thirds) of the firestorm are pulled directly towards the center. The pull distance is equal to the width of the technique.\nCreatures take 1d6 bludgeoning damage plus 1d6 for every 6 CL if they collide with a creature or object for every 5 ft. of remaining pull distance.\nCreatures always stop at the center of the area of effect regardless of remaining distance.\nCreatures in the firestorm can make a reflex save to halve the fire damage, creatures in the turbulence can make a reflex save to prevent being pulled."
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstEarthSutra.Name",
+    "enGB": "Granite Overhead"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstEarthSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a heavy overhead strike, dealing unarmed strike + kinetic fist damage as bludgeoning damage, knocking their opponent prone.\nA successful Fortitude save negates the prone condition.\nThe attack deals an additional 1d6 damage every 5 Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondEarthSutra.Name",
+    "enGB": "Live Burial"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondEarthSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdEarthSutra.Name",
+    "enGB": "As Below, So Above"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdEarthSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstIceSutra.Name",
+    "enGB": "Frost Hook"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstIceSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a freezing hook, dealing unarmed strike + kinetic fist damage as bludgeoning damage, fatiguing their opponent for 1 turn.\nA successful Fortitude save negates the fatigue.\nThe fatigue duration is increased by 1 for every 4 Onisattva levels and does not stack with other fatigue effects."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondIceSutra.Name",
+    "enGB": "Falling Serac"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondIceSutra.Description",
+    "enGB": "You create a 20 ft. cube of ice in front of you and punch it up to 60 ft. forward with tremendous and earth-shattering force. The first target hit by the serac takes your unarmed strike + kinetic fist damage as half bludgeoning, half cold damage.\nA successful Reflex save halves this damage, evasion and similar features reduce it to a quarter damage instead.\nRegardless of whether the ice hits a target, it disappears after 1d4 rounds.\nIf the serac collides with a target, it breaks into pieces and pelts targets in a 30 ft. cone behind them, dealing 1d6 damage per caster level, half cold, half bludgeoning and entangling them for 1d4 rounds.\n A successful Reflex save halves this damage and a successful Fortitude save prevents entangling."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdIceSutra.Name",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdIceSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstWindSutra.Name",
+    "enGB": "Vacuum Fist"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstWindSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a piercing vacuum, dealing unarmed strike + kinetic fist damage as piercing damage, pulling them up to 10 feet closer.\nA successful Reflex save negates the pull and halves the damage taken.\nThe pull distance increases by 5 feet for every 4 Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondWindSutra.Name",
+    "enGB": "Guillotine Lariat"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondWindSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdWindSutra.Name",
+    "enGB": "Hurricane Ripper"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdWindSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstWaterSutra.Name",
+    "enGB": "Jet Cutter"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstWaterSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a slicing jet of water, dealing unarmed strike + kinetic fist damage as slashing damage, ignoring 3 points of DR.\nA successful Reflex save halves DR negation.\nThe DR negation is increased by 1 for every 2 Onisattva levels. Untyped Damage Reduction counts double."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondWaterSutra.Name",
+    "enGB": "Roiling Undertow"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondWaterSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with the weight of an ocean, dealing unarmed strike + kinetic fist damage as cold and bludgeoning damage. A 30 foot cone of water hits all enemies behind them, dealing their kinetic fist damage as cold and bludgeoning damage.\nOn the next turn, a second wave returns, dealing the same damage to all enemies in a 30 foot area from the first wave's edge and are removed from combat for 3 turns.\nA successful Reflex save halves wave damage, a successful Fortitude save prevents battlefield removal.\nThe removal duration increases by 1 every 6 levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdWaterSutra.Name",
+    "enGB": "Barotrauma"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdWaterSutra.Description",
+    "enGB": "As a standard action, the Onisattva can encase their opponent in a sphere of water and iron for up to 3 turns, dealing unarmed strike + kinetic fist damage as bludgeoning damage that ignores Damage Resistance and cutting them off from effects outside the iron sphere.\nA successful reflex save prevents being trapped and further instances of damage.\nThe target takes an additional instance of damage for every 5 Onisattva levels and the iron sphere's HP and Hardness are equal to 5x and 2x Onisattva levels respectively, breaking the sphere ends the effect early."
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstShadowSutra.Name",
+    "enGB": "Umbral Thrust"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstShadowSutra.Description",
+    "enGB": "As a standard action, the Onisattva can step through their opponent's shadow and strike their back with a powerful elbow thrust, dealing unarmed strike (reduced by one step) + kinetic fist damage as piercing strike damage. This counts as a sneak attack for all purposes. \nA successful Reflex save halves damage taken.\nThe attack deals an additional 1d6 damage for every 5 Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondShadowSutra.Name",
+    "enGB": "Black Limbs"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondShadowSutra.Description",
+    "enGB": "As a Standard action, the Onisattva can elongate their shadow and make it more tangible, allowing them to attack and threaten enemies, as well as manipulate objects wihtin a 10 feet range.\nThe range increases by 5 feet every 5 Onisattva levels.\nWhile Black Limbs is active, the Onisattva's AC is reduced by half their Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdShadowSutra.Name",
+    "enGB": "Main Event Horizon"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdShadowSutra.Description",
+    "enGB": "As a 1-round action, the Onisattva traps all creatures in a 20 foot burst in a miniature black hole for 3 turns. While Main Event Horizon is active, creatures cannot leave or enter the area. All effects targeting another creature automatically hit and all creatures are considered to be adjacent to any other for abilities and effects that require distance or adjacency.\nA successful Reflex and Fortitude save prevents a creature form being pulled into the effect range.\nIf Black Limbs is active, the Onisattva can reduce the activation time to a Move action."
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstLightSutra.Name",
+    "enGB": "Blinding Jab"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstLightSutra.Description",
+    "enGB": "As a standard action, the Onisattva can attack their opponent with a blindingly fast jab, dealing unarmed strike + kinetic fist damage as bludgeoning damage and dazzling them for 2 turns. An already dazzled opponent is considered to be blind for the purposes of this attack.\nA successful Fortitude save reduces the dazzled condition to 1 turn.\nThe dazzled duration and penalties increase by 1 for every 4 Onisattva levels."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondLightSutra.Name",
+    "enGB": "Flicker Counter"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondLightSutra.Description",
+    "enGB": "As a standard action, the Onisattva makes their body glow with white heat from the inside out for up to three turns, allowing them to make an attack of opportunity whenever being targeted by a creature within range.\nIf the Onisattva's attack roll exceeds the opponents, the Onisattva's attack is resolved first.\nWhile Flicker Counter is active, the Onisattva takes HP Burn equal to their Onisattva level at the end of their turn."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdLightSutra.Name",
+    "enGB": "Name"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdLightSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstAkashicSutra.Name",
+    "enGB": "Wheelbreaker"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstAkashicSutra.Description",
+    "enGB": "As a standard action, the Onisattva can enter the 'Wheelbreaker' stance, gaining a 'Austerity' charge every time they make a successful melee attack, gaining 1 damage on unarmed strikes per 'Austerity'. While they have at least 5 'Austerity' charges, they can use a standard action to attack the target and deal unarmed strike + kinetic fist damage as unarmed strike damage to the target, discharging all 'Austerity' charges through the target's body.\nThe Onisattva deals 50% damage with this attack, plus an additional 5% for every 'Austerity' charge above 5, to a maximum of 125% at 20 charges. The damage is inflicted as HP Burn. HP Burn works as normal damage but it can only be recovered with 8 hours of rest.\nIf a target's total HP Burn is equal to their Maximum HP, they are instantly slain and do not even leave dust behind as they have attained Nirvana and broken free from the cycle of reincarnation. They can only be returned to life (and tragically become subject of Karma again) through Wish, Miracle or divine intervention.\nA successful Fortitude save reduces the HP Burn by half."
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondAkashicSutra.Name",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondAkashicSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdAkashicSutra.Name",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdAkashicSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstVisceraSutra.Name",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstVisceraSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondVisceraSutra.Name",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondVisceraSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdVisceraSutra.Name",
+    "enGB": "Grotesque Avalokiteśvara"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdVisceraSutra.Description",
+    "enGB": "As a standard action, the Onisattva fires projectiles of bone and sinew out of their body, making a ranged touch attack against all targets within Close range. All targets with an internal skeleton, including undead, must make a Fortitude save or have parts of the skeleton ripped out, taking 1d6 constitution damage and 1d2 constitution bleed or 1d6 charisma damage and 1d2 charisma bleed for creatures without a constitution score. They are staggered and continue taking that constitution bleed until they make a successful heal check with a DC equal to the Fortitude save.\nFor one minute, every failed Fortitude save grants the Onisattva one bony arm that can hold weapons, shields and be used to make attacks, up to a maximum of 1 arm plus one additional arm for every 4 Onisattva levels. Excess arms are fused into existing ones, increasing damage dealt by unarmed strikes or natural attacks by 1/2 caster level per excess arm.\nArms have 5 x caster level hit points and 2 x caster level AC, treating the effective caster level as +1/2 higher each for every excess arm.\nWhen taking damage, the Onisattva can sacrifice an arm as a free action to reduce the damage by the arm's hit points. The arm is then destroyed, regardless of how much damage was reduced."
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstPhysicalSutra.Name",
+    "enGB": "Dragon Muzzle"
+  },
+  {
+    "Key": "OnisattvaArchetype.FirstPhysicalSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondPhysicalSutra.Name",
+    "enGB": "TEKKEN"
+  },
+  {
+    "Key": "OnisattvaArchetype.SecondPhysicalSutra.Description",
+    "enGB": "As a standard action, the Onisattva can enter the 'TEKKEN' stance. While in this stance, any critical hits made by the Onisattva are instead stored inside their body as 'Iron Fist' counters equal to their critical multiplier. They may store up to BAB + Constitution modifier in counters at any given time.\nAs a standard action, while in this stance, the Onisattva can make an unarmed attack, dealing their unarmed strike + kinetic fist damage, plus (2*'Iron Fist' Counters)% of the target's maximum HP. Any % Maximum HP damage your target takes while they're below half their maximum HP is halved.\nFast healing, regeneration and incoming healing is suppressed until the end of your next turn.\nThe heavy recoil from using this technique inflicts (1/2*'Iron Fist' counters)% damage to the Onisattva, following the same rules.\nIf the Onisattva gains any excess counters, they immediately take 1% of their maximum HP as damage per counter, rounded up or 0.5% if they're below half maximum HP.\nThese counters are automatically lost when exiting the stance, becoming unconscious or dying or when the encounter ends.\nA successful fortitude saves halves % maximum HP damage taken and reduces fast healing, regeneration and incoming healing by half instead of suppressing them for both the target and the Onisattva."
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdPhysicalSutra.Name",
+    "enGB": "Vertebreaker"
+  },
+  {
+    "Key": "OnisattvaArchetype.ThirdPhysicalSutra.Description",
+    "enGB": "Description"
+  },
+  {
+    "Key": "OnisattvaArchetype.SpaceSutra.Name",
+    "enGB": "Buddha's Palm: Zero Point Convergence"
+  },
+  {
+    "Key": "OnisattvaArchetype.SpaceSutra.Description",
+    "enGB": "Once per day, as a full-round action, you force your Hellfire Qi to its Blaze maximum (base cost +4) and enclose a single target within a sphere of crushing isolation. While contained, the target cannot affect or be affected by creatures or effects outside the sphere.\n\nAt the end of each of its turns, the target must attempt Fortitude, Reflex, and Will saving throws. If it fails two or more of these saves in the same round, it is reduced by one size category. If it succeeds on two or more saves, it resists compression for that turn. If the target goes two consecutive rounds without being compressed, the effect ends.\n\nIf the target has already been compressed three times, or if it reaches Fine size, then on its next turn it must attempt the three saving throws again. Failing two or more of these saves at this stage annihilates the target completely, leaving no body behind. Only wish, miracle, or divine intervention can restore such a victim."
+  },
+  {
+    "Key": "OnisattvaArchetype.GravitySutra.Name",
+    "enGB": "Reaching the Heavens: Gravitational Scission"
+  },
+  {
+    "Key": "OnisattvaArchetype.GravitySutra.Description",
+    "enGB": "Once per day, as a full-round action, you force your Hellfire Qi to its Ember maximum (base cost –4). All creatures in a 15-foot wide line with Long range (400 ft. + 40 ft./level) take damage equal to your unarmed strike + kinetic fist. For each point of Hellfire Qi pushed beyond –4, you deal one additional instance of this damage (e.g. –5 = 2 instances, –6 = 3 instances, etc.).\n\nEach creature struck must attempt three Fortitude saves. Each success reduces the total damage taken by one quarter, to a minimum of one quarter damage if all three succeed. Effects that would normally negate all damage on a successful save (such as Evasion or Stalwart) do not apply, and creatures cannot use immediate-action movement or teleport effects to escape the area once the technique has been initiated."
+  },
+  {
+    "Key": "OnisattvaArchetype.NuclearSutra.Name",
+    "enGB": "Transcendental Strikes: Nuclear Punch"
+  },
+  {
+    "Key": "OnisattvaArchetype.NuclearSutra.Description",
+    "enGB": "Description"
   }
+
 ]
